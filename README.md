@@ -134,3 +134,9 @@ reicast_cable_type = "VGA (RGB)"
 reicast_internal_resolution = "640x480"
 reicast_gdrom_fast_loading = "enabled"
 ```
+## Acknowledgements and Upstream
+
+* Original repository: [flyinghead/flycast](https://github.com/flyinghead/flycast)
+* Libretro core: [libretro/flycast](https://github.com/libretro/flycast)
+* Historical roots: the [Reicast](https://github.com/reicast/reicast-emulator) project and nullDC.
+* License: [GPL-2.0](LICENSE)
