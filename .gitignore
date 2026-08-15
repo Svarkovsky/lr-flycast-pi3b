@@ -1,0 +1,9 @@
+*.o
+*.so
+*.a
+*.log
+*.data
+*.tmp
+perf.data*
+flycast_libretro.so
+build/

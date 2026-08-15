@@ -1,0 +1,17 @@
+# === Локальные артефакты кросс-сборки под Raspberry Pi 3B (RetroPie) ===
+# compat-объекты (закрывают gcc12-специфичные символы при линковке к glibc 2.28)
+libc_compat.o
+libc_compat2.o
+
+# Локальные копии VideoCore SDK и rootfs малины (не коммитить — берутся из системы)
+vc/
+sysroot/
+
+# Логи сборки / профилирования
+*.log
+pgo_data/
+/tmp/pgo_data/
+
+# Результирующие бинари (собираются локально)
+flycast_libretro.so
+*.so.bak
